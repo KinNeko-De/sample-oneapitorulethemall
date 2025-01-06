@@ -1,4 +1,5 @@
 #! /bin/sh
 ./install-protoc.sh linux-x86_64
 
-read -p "Press [Enter] to exit."
+printf "Press any key to exit."
+read _
