@@ -5,7 +5,8 @@ currentversion="29.2"
 if [ -z "$1" ]; then
   echo "Error: Missing required operation system."
   echo "Usage: $0 <ossystem>"
-  read -p "Example: $0 win64"
+  printf "Example: $0 win64"
+  read _
   exit 1
 fi
 ossystem=$1
