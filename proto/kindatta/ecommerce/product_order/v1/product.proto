@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package kindatta.ecommerce.product_order.v1;
+
+message Product {
+  string product_id = 1;
+}
+
+message ProductOrdered {
+  string request_id = 1;
+}

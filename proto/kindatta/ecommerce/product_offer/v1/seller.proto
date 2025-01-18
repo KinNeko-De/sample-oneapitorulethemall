@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package kindatta.ecommerce.product_offer.v1;
+
+message Seller {
+  string id = 1;
+  string email = 2;
+}

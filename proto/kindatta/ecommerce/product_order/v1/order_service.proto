@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package kindatta.ecommerce.product_order.v1;
+
+import "kindatta/ecommerce/product_order/v1/order.proto";
+
+service OrderService {
+  rpc OrderProduct(OrderProductRequest) returns (OrderProductResponse);
+}
+
+message OrderProductRequest {
+  string request_id = 1;
+  string customer_id = 2;
+  repeated Product products = 3;
+}
+
+message OrderProductResponse {}
