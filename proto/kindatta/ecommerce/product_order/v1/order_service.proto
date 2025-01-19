@@ -4,13 +4,13 @@ package kindatta.ecommerce.product_order.v1;
 
 import "kindatta/ecommerce/product_order/v1/product.proto";
 
-service OrderService {
+service OrderProductService {
   rpc OrderProduct(OrderProductRequest) returns (OrderProductResponse);
 }
 
 message OrderProductRequest {
   string request_id = 1;
-  string customer_id = 2;
+  string buyer_id = 2;
   repeated kindatta.ecommerce.product_order.v1.Product products = 3;
 }
 
