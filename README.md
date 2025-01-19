@@ -1,4 +1,4 @@
-![One API to rule them all](header.png)
+![One API to rule them all](header.jpg)
 
 # Motivation
 
